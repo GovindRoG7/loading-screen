@@ -6,7 +6,7 @@ const addAnimation = () => {
         dots.classList.remove('animate')
 
         setTimeout(() => { addAnimation()
-        }, 100)
+        },0)
     }, 2800)
 }
 
